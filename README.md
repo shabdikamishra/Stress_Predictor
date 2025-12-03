@@ -9,9 +9,13 @@ The Stress Level Prediction Web App enables users to input daily lifestyle param
 Beyond predictions, the app provides:
 
 ✔ Real-time visualizations
+
 ✔ Personalized recommendations
+
 ✔ Factor-based analysis
+
 ✔ Beautiful modern UI
+
 ✔ Responsive layout and interactive controls
 
 This project focuses on delivering an accurate, intuitive, and aesthetically rich experience for end-users.
@@ -22,10 +26,15 @@ This project focuses on delivering an accurate, intuitive, and aesthetically ric
 This version includes a beautifully redesigned interface:
 
 🌈 Modern gradient background with smooth color transitions
+
 🖱 Interactive sliders with real-time feedback and live status indicators
+
 📱 Fully responsive two-column layout
+
 🎨 Custom CSS styling for a polished, professional UI
+
 📊 Animated Plotly gauge chart for stress prediction
+
 💬 Large emoji-based indicators for instant emotional clarity
 
 📸 Screenshot Placeholder:
@@ -35,9 +44,13 @@ This version includes a beautifully redesigned interface:
 ✨ New Functional Modules
 
 1️⃣ Sidebar Information Panel
+
 Includes:
+
 About section
+
 Stress category legend
+
 Helpful tips for input optimization
 
 📸 Screenshot Placeholder:
@@ -45,9 +58,13 @@ Helpful tips for input optimization
 ![Sidebar Panel](screenshots/sidebar_info.png)
 
 2️⃣ Metrics Dashboard
+
 Interactive cards showing:
+
 Current input values
+
 Status labels (✔ Optimal | ⚠ Adjust | ⬆ Increase)
+
 Real-time response to slider movement
 
 📸 Screenshot Placeholder:
@@ -55,9 +72,13 @@ Real-time response to slider movement
 ![Metrics Dashboard](screenshots/metrics_dashboard.png)
 
 3️⃣ Prediction Result Dashboard
+
 🎯 Animated Plotly gauge meter
+
 🔵🟡🔴 Color-coded stress categories
+
 📈 Progress bar visualization
+
 Clear textual interpretation
 
 📸 Screenshot Placeholder:
@@ -65,10 +86,15 @@ Clear textual interpretation
 ![Prediction Result](screenshots/prediction_result.png)
 
 4️⃣ Personalized Recommendations
+
 Recommendations dynamically adapt to the stress score, including:
+
 Lifestyle adjustments
+
 Work habits
+
 Relaxation techniques
+
 Health-focused advice
 
 📸 Screenshot Placeholder:
@@ -76,10 +102,15 @@ Health-focused advice
 ![Recommendations](screenshots/recommendations.png)
 
 5️⃣ Factor Analysis Section
+
 For each input parameter:
+
 Shows impact on stress
+
 Displays optimal ranges
+
 Provides educational info
+
 Helps users understand why their stress level is high or low
 
 📸 Screenshot Placeholder:
@@ -87,13 +118,21 @@ Helps users understand why their stress level is high or low
 ![Factor Analysis](screenshots/factor_analysis.png)
 
 🧪 Tech Stack
-Component	Technology
-Frontend UI	- Streamlit + Custom CSS
-Visualization -	Plotly, Streamlit native charts
-Model -	Machine Learning (trained regression/classification model)
-Language- Python
-Environment	- venv
-Deployment - Local execution
+
+Component	                  Technology
+
+Frontend UI	-            Streamlit + Custom CSS
+
+Visualization -       	Plotly, Streamlit native charts
+
+Model -        	Machine Learning (trained regression/classification model)
+
+Language-                      Python
+
+Environment	-                  venv
+
+Deployment -             Local execution
+
 
 📁 Project Structure
 StressPredictor/
@@ -112,6 +151,7 @@ StressPredictor/
 │
 ├── requirements.txt
 ├── README.md
+
 
 ▶️ How to Run the App
 1. Clone the repository
@@ -143,20 +183,23 @@ Score         Range	                          Category	                         
 🚀 Future Enhancements
 
 Add heart rate and sleep cycle data
+
 Deploy the model on Render / HuggingFace Spaces
+
 Convert Streamlit app into a mobile UI
+
 Integrate with smartwatch APIs
 
 📊 Results & Insights
 
 Strong correlations were observed between temperature/humidity and stress
+
 Step count played a moderate role
+
 Random Forest captured non-linear relationships effectively
+
 Model achieved ~99.998% accuracy
 
-Here is a **short, clean, professional version** you can directly paste into your README:
-
----
 
 📚 Dataset & Research References
 
@@ -166,7 +209,9 @@ This project uses the dataset from:
 **“Human Stress Detection” — Laavanya Rachakonda (Kaggle)**
 
 Citation :
+
 L. Rachakonda, S. P. Mohanty, E. Kougianos, and P. Sundaravadivel, “Stress-Lysis: A DNN-Integrated Edge Device for Stress Level Detection in the IoMT,” IEEE Trans. Conum. Electron., vol. 65, no. 4, pp. 474–483, 2019.
+
 L. Rachakonda, P. Sundaravadivel, S. P. Mohanty, E. Kougianos, and M. Ganapathiraju, “A Smart Sensor in the IoMT for Stress Level Detection”, in Proceedings of the 4th IEEE International Symposium on Smart Electronic Systems (iSES), 2018, pp. 141--145.
 
 📄 IEEE Research Paper
@@ -174,9 +219,11 @@ L. Rachakonda, P. Sundaravadivel, S. P. Mohanty, E. Kougianos, and M. Ganapathir
 The dataset includes an accompanying research paper:
 
 Paper:*Stress-Lysis: A DNN-Integrated Edge Device for Stress Level Detection in the IoMT*
+
 Publisher: IEEE
 
 Citation (IEEE):
+
 Laavanya Rachakonda, Student Member, IEEE, Saraju P. Mohanty, Senior Member, IEEE, Elias Kougianos,
 Senior Member, IEEE, and Prabha Sundaravadivel, Member, IEEE
 
@@ -192,6 +239,7 @@ Please fork the repo, open a PR, and ensure your code follows project guidelines
 👨‍💻 Author
 
 Shabdika Mishra
+
 Second-Year CSE (AIML) Student
 
 ⭐ Support
