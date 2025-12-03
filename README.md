@@ -6,7 +6,7 @@ A machine-learning powered Streamlit application for assessing stress levels and
 
 The Stress Level Prediction Web App enables users to input daily lifestyle parameters and instantly receive a predicted stress score powered by a trained machine-learning model.
 
- ** Beyond predictions, the app provides:
+ ## Beyond predictions, the app provides:
 
 ✔ Real-time visualizations
 
@@ -18,10 +18,8 @@ The Stress Level Prediction Web App enables users to input daily lifestyle param
 
 ✔ Responsive layout and interactive controls
 
-This project focuses on delivering an accurate, intuitive, and aesthetically rich experience for end-users.
 
-🧠 Features
-🎨 UI/UX Enhancements
+## 🎨 UI/UX Enhancements
 
 This version includes a beautifully redesigned interface:
 
@@ -37,11 +35,8 @@ This version includes a beautifully redesigned interface:
 
 💬 Large emoji-based indicators for instant emotional clarity
 
-📸 Screenshot Placeholder:
 
-![UI Overview](screenshots/ui_overview.png)
-
-✨ New Functional Modules
+## ✨ New Functional Modules
 
 1️⃣ Sidebar Information Panel
 
@@ -55,7 +50,8 @@ Helpful tips for input optimization
 
 📸 Screenshot Placeholder:
 
-![Sidebar Panel](screenshots/sidebar_info.png)
+![Sidebar Panel](<img width="719" height="279" alt="image" src="https://github.com/user-attachments/assets/2ffa1f83-5b40-47d2-8507-2ef777ee6f37" />)
+
 
 2️⃣ Metrics Dashboard
 
@@ -69,21 +65,21 @@ Real-time response to slider movement
 
 📸 Screenshot Placeholder:
 
-![Metrics Dashboard](screenshots/metrics_dashboard.png)
+![Metrics Dashboard](<img width="1870" height="899" alt="image" src="https://github.com/user-attachments/assets/59601008-51e7-414f-9e96-173659f31e5f" />)
+
 
 3️⃣ Prediction Result Dashboard
 
 🎯 Animated Plotly gauge meter
 
-🔵🟡🔴 Color-coded stress categories
-
-📈 Progress bar visualization
+🟢🟡🔴 Color-coded stress categories
 
 Clear textual interpretation
 
 📸 Screenshot Placeholder:
 
-![Prediction Result](screenshots/prediction_result.png)
+![Prediction Result](<img width="1792" height="601" alt="image" src="https://github.com/user-attachments/assets/8a379f86-e2c7-4b68-8aed-111b92808d14" />)
+
 
 4️⃣ Personalized Recommendations
 
@@ -99,7 +95,8 @@ Health-focused advice
 
 📸 Screenshot Placeholder:
 
-![Recommendations](screenshots/recommendations.png)
+![Recommendations](<img width="1553" height="669" alt="image" src="https://github.com/user-attachments/assets/7920e1cd-baef-449f-a599-c5183de09cfd" />)
+
 
 5️⃣ Factor Analysis Section
 
@@ -115,9 +112,10 @@ Helps users understand why their stress level is high or low
 
 📸 Screenshot Placeholder:
 
-![Factor Analysis](screenshots/factor_analysis.png)
+![Factor Analysis](<img width="1501" height="333" alt="image" src="https://github.com/user-attachments/assets/112179e9-158d-42ae-8d4a-e7e536eb6c65" />)
 
-🧪 Tech Stack
+
+## 🧪 Tech Stack
 
 Component	                  Technology
 
@@ -134,7 +132,7 @@ Environment	-                  venv
 Deployment -             Local execution
 
 
-📁 Project Structure
+## 📁 Project Structure
 StressPredictor/
 │
 ├── data/
@@ -155,20 +153,25 @@ StressPredictor/
 
 ▶️ How to Run the App
 1. Clone the repository
+   
 git clone https://github.com/your-repo/stress-prediction-app.git
 cd stress-prediction-app
 
 2. Install dependencies
+
 pip install -r requirements.txt
 
 3. Run the Streamlit app
+
 streamlit run app.py
+
 
 📈 How the Model Works
 
 The model takes the following inputs:
-Humidity
-Temperature
+
+Humidity,
+Temperature,
 Step count
 
 These values are scaled and passed into the trained Random Forest model, which outputs a predicted Stress Level.
