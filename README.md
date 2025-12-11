@@ -2,8 +2,6 @@
 
 A machine-learning powered Streamlit application for assessing stress levels and providing personalized insights.
 
-🚀 Overview
-
 The Stress Level Prediction Web App enables users to input daily lifestyle parameters and instantly receive a predicted stress score powered by a trained machine-learning model.
 
  ## Beyond predictions, the app provides:
@@ -50,7 +48,7 @@ Helpful tips for input optimization
 
 📸 Screenshot Placeholder:
 
-![Sidebar Panel](<img width="719" height="279" alt="image" src="https://github.com/user-attachments/assets/2ffa1f83-5b40-47d2-8507-2ef777ee6f37" />)
+<img width="719" height="279" alt="Screenshot 2025-12-03 162833" src="https://github.com/user-attachments/assets/a43a522f-378d-4587-b122-ab46d7d383ce" />
 
 
 2️⃣ Metrics Dashboard
