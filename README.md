@@ -6,6 +6,7 @@ The Stress Level Prediction Web App enables users to input daily lifestyle param
  ## Beyond predictions, the app provides:
 
 ✔ Real-time visualizations
+
 ✔ Personalized recommendations
 
 ✔ Factor-based analysis
@@ -55,9 +56,7 @@ Status labels (✔ Optimal | ⚠ Adjust | ⬆ Increase)
 
 Real-time response to slider movement
 
-📸 Screenshot Placeholder:
-
-![Metrics Dashboard](<img width="1870" height="899" alt="image" src="https://github.com/user-attachments/assets/59601008-51e7-414f-9e96-173659f31e5f" />)
+<img width="1870" height="899" alt="Screenshot 2025-12-03 163514" src="https://github.com/user-attachments/assets/ceac7033-253a-42b4-91bb-431583dcabf8" />
 
 
 3️⃣ Prediction Result Dashboard
@@ -68,9 +67,7 @@ Real-time response to slider movement
 
 Clear textual interpretation
 
-📸 Screenshot Placeholder:
-
-![Prediction Result](<img width="1792" height="601" alt="image" src="https://github.com/user-attachments/assets/8a379f86-e2c7-4b68-8aed-111b92808d14" />)
+<img width="1792" height="601" alt="Screenshot 2025-12-03 163610" src="https://github.com/user-attachments/assets/3a5ee67f-1006-4b6c-8fd6-69edea9d96bd" />
 
 
 4️⃣ Personalized Recommendations
@@ -85,9 +82,7 @@ Relaxation techniques
 
 Health-focused advice
 
-📸 Screenshot Placeholder:
-
-![Recommendations](<img width="1553" height="669" alt="image" src="https://github.com/user-attachments/assets/7920e1cd-baef-449f-a599-c5183de09cfd" />)
+<img width="1553" height="669" alt="Screenshot 2025-12-03 163208" src="https://github.com/user-attachments/assets/e2f8c7e1-ab3c-4b66-b692-9dce920f2fb2" />
 
 
 5️⃣ Factor Analysis Section
@@ -102,26 +97,22 @@ Provides educational info
 
 Helps users understand why their stress level is high or low
 
-📸 Screenshot Placeholder:
-
-![Factor Analysis](<img width="1501" height="333" alt="image" src="https://github.com/user-attachments/assets/112179e9-158d-42ae-8d4a-e7e536eb6c65" />)
+<img width="1501" height="333" alt="Screenshot 2025-12-03 163248" src="https://github.com/user-attachments/assets/1b2d05d3-96e6-48e3-9edc-6b7e31440687" />
 
 
 ## 🧪 Tech Stack
 
-Component	                  Technology
+Frontend UI	-Streamlit + Custom CSS
 
-Frontend UI	-            Streamlit + Custom CSS
+Visualization -	Plotly, Streamlit native charts
 
-Visualization -       	Plotly, Streamlit native charts
+Model -	Machine Learning (trained regression/classification model)
 
-Model -        	Machine Learning (trained regression/classification model)
+Language- Python
 
-Language-                      Python
+Environment	-venv
 
-Environment	-                  venv
-
-Deployment -             Local execution
+Deployment - Local execution
 
 
 ## 📁 Project Structure
@@ -170,9 +161,9 @@ These values are scaled and passed into the trained Random Forest model, which o
 
 Outputs a continuous stress score which is mapped into categories:
 
-Score         Range	                          Category	                              Meaning
-0– 1	        🟢                             Low Stress	                         Balanced & healthy
-1- 1.4	      🟡                            Moderate Stress	                      Needs attention
+Score         Range	                          Category	                              Meaning  \n
+0– 1	        🟢                             Low Stress	                         Balanced & healthy      \n
+1- 1.4	      🟡                            Moderate Stress	                      Needs attention                 \n
 1.4- 2	      🔴                            High Stress	                   Requires immediate relief measures
 
 🚀 Future Enhancements
