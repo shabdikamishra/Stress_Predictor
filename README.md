@@ -228,6 +228,3 @@ Shabdika Mishra
 
 Second-Year CSE (AIML) Student
 
-⭐ Support
-
-If you find this project helpful, consider giving it a ⭐ star on GitHub!
