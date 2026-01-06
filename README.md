@@ -143,9 +143,10 @@ These values are scaled and passed into the trained Random Forest model, which o
 
 Outputs a continuous stress score which is mapped into categories:
 
-Score Range	Indicator	Category	Meaning
 0.0 – 1.0	🟢	Low Stress	Balanced & healthy
+
 1.0 – 1.4	🟡	Moderate Stress	Needs attention
+
 1.4 – 2.0	🔴	High Stress	Requires immediate relief measures
 
 🚀 Future Enhancements
@@ -195,14 +196,6 @@ Citation (IEEE):
 Laavanya Rachakonda, Student Member, IEEE, Saraju P. Mohanty, Senior Member, IEEE, Elias Kougianos,
 Senior Member, IEEE, and Prabha Sundaravadivel, Member, IEEE
 
-🙏 Acknowledgements
-
-Thanks to **Laavanya Rachakonda (Kaggle)** and the authors of the IEEE paper for making this research possible.
-
-🤝 Contributing
-
-Contributions are welcome!
-Please fork the repo, open a PR, and ensure your code follows project guidelines.
 
 👨‍💻 Author
 
