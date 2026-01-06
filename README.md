@@ -115,26 +115,8 @@ Environment	-venv
 Deployment - Local execution
 
 
-## 📁 Project Structure
-StressPredictor/
-│
-├── data/
-│   └── Stress-Lysis.csv
-│
-├── notebooks/
-│   └── 1noteb.ipynb
-|   └── models/
-│       └── StressPredictor.pkl
-|       └── scalar.pkl
-│
-├── app/
-│   └── app.py
-│
-├── requirements.txt
-├── README.md
 
-
-▶️ How to Run the App
+## ▶️ How to Run the App
 1. Clone the repository
    
 git clone https://github.com/your-repo/stress-prediction-app.git
@@ -149,7 +131,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-📈 How the Model Works
+## 📈 How the Model Works
 
 The model takes the following inputs:
 
@@ -161,10 +143,10 @@ These values are scaled and passed into the trained Random Forest model, which o
 
 Outputs a continuous stress score which is mapped into categories:
 
-Score         Range	                          Category	                              Meaning  \n
-0– 1	        🟢                             Low Stress	                         Balanced & healthy      \n
-1- 1.4	      🟡                            Moderate Stress	                      Needs attention                 \n
-1.4- 2	      🔴                            High Stress	                   Requires immediate relief measures
+Score Range	Indicator	Category	Meaning
+0.0 – 1.0	🟢	Low Stress	Balanced & healthy
+1.0 – 1.4	🟡	Moderate Stress	Needs attention
+1.4 – 2.0	🔴	High Stress	Requires immediate relief measures
 
 🚀 Future Enhancements
 
